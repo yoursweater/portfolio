@@ -7,7 +7,6 @@ var bodyParser = require('body-parser');
 var mustacheExpress = require('mustache-express')
 var exphbs  = require('express-handlebars');
 var pry = require('pryjs')
-var async = require('async')
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
