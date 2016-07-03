@@ -6,25 +6,45 @@
   <link rel="stylesheet" href="css/materialize.css">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,900' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Dan Eversen</title>
 
 </head>
 <body>
 
-<div id="bigContainer">
-  <nav>
-    <div class="nav-wrapper #cfd8dc blue-grey lighten-4 z-depth-3">
-      <a href="/" class="brand-logo" style="color: #212121;font-weight: 500;font-size: 16px;">DAN EVERSEN</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/">WORK</a></li>
-        <li><a href="/">ABOUT</a></li>
-        <li><a href="/">CONTACT</a></li>
-      </ul>
-    </div>
-  </nav>
 
       {{{body}}}
 
+  <nav>
+    <div id="primaryNav" class="nav-wrapper #cfd8dc blue-grey lighten-4 z-depth-3">
+      <a id="theLogo" href="/" class="center brand-logo" style="color: #212121;font-weight: 500;font-size: 16px;">DAN EVERSEN</a>
+<!--       <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="/">WORK</a></li>
+        <li><a href="/">ABOUT</a></li>
+        <li><a href="/">CONTACT</a></li>
+      </ul> -->
+    </div>
+  </nav>
+
+      <div id="iconMenu" class="row center-align">
+
+        <div class="col s4">
+        <i class="large material-icons">work</i>
+        <br>
+          <p>My Projects</p>
+        </div>
+        <div class="col s4">
+        <i class="large material-icons">perm_identity</i>
+        <br>
+          <p>About Me</p>
+        </div>
+        <div class="col s4">
+        <i class="large material-icons">contact_phone</i>
+        <br>
+          <p>Contact</p>
+        </div>
+
+      </div>
 
 
   <script src="js/jquery.js"></script>

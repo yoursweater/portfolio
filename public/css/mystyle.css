@@ -1,4 +1,4 @@
-
+/*
 #container {
    width: 100%;
    height: auto;
@@ -70,4 +70,17 @@ padding: 0px;
 #mainPage{
   padding: 0px;
   margin-bottom: -10px;
+}
+ */
+
+#primaryNav {
+  margin-top: -10px;
+}
+
+#iconMenu {
+  margin-top: 25px;
+}
+
+#theLogo{
+  left:50%;
 }
