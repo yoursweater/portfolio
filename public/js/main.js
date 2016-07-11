@@ -10,4 +10,16 @@
     $(this).css("box-shadow", "0px 0px 0px 0px #ccc")
   })
 
+
+  var options = [
+    {selector: '#iconMenu', offset: 50, callback: function() {
+      Materialize.fadeInImage("#iconMenu");
+    } }
+  ];
+  Materialize.scrollFire(options);
+
+
+
+
+
 })();
