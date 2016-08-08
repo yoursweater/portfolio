@@ -12,13 +12,17 @@
 
 
   var options = [
-    {selector: '#iconMenu', offset: 50, callback: function() {
-      Materialize.fadeInImage("#iconMenu");
+    {selector: '#sixtyCard', offset: 50, callback: function() {
+      Materialize.fadeInImage("#sixtyCard");
+    } },
+    {selector: '#tysonCard', offset: 200, callback: function() {
+      Materialize.fadeInImage("#tysonCard");
+    } },
+    {selector: '#sullyCard', offset: 50, callback: function() {
+      Materialize.fadeInImage("#sullyCard");
     } }
   ];
   Materialize.scrollFire(options);
-
-
 
 
 

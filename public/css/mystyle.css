@@ -1,3 +1,14 @@
+#sullyCard{
+  opacity: 0;
+}
+
+#tysonCard{
+  opacity: 0;
+}
+
+#sixtyCard{
+  opacity: 0;
+}
 
 #primaryNav {
   margin-top: -10px;
