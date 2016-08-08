@@ -2,6 +2,10 @@
   margin-top: 20px;
 }
 
+#seanCard{
+  opacity: 0;
+}
+
 #sullyCard{
   opacity: 0;
 }

@@ -20,6 +20,9 @@
     } },
     {selector: '#sullyCard', offset: 50, callback: function() {
       Materialize.fadeInImage("#sullyCard");
+    } },
+    {selector: '#seanCard', offset: 200, callback: function() {
+      Materialize.fadeInImage("#seanCard");
     } }
   ];
   Materialize.scrollFire(options);
