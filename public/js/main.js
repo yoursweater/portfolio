@@ -24,6 +24,4 @@
   ];
   Materialize.scrollFire(options);
 
-
-
 })();
