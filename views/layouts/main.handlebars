@@ -4,99 +4,169 @@
 
   <link rel="stylesheet" href="css/mystyle.css">
   <link rel="stylesheet" href="css/materialize.css">
+
+
+  <!-- Custom CSS -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,900' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Dan Eversen</title>
 
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
 </head>
-<body>
 
-{{{body}}}
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<div class="row">
-    <h1 class="center-align">Projects</h1>
-</div>
+  {{{body}}}
 
-
-    <div class="row">
-      <div class="col s12 m6" id="sixtyCard">
-        <div class="card medium hoverable">
-          <div class="card-image">
-            <img src="images/sixtyforty.jpg">
-            <span class="card-title"></span>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">Dan Eversen</a>
           </div>
-          <div class="card-content">
-            <p>A website for the book "If 60 Is The New 40, Why Can't I get a Job?". Developed with Ruby on Rails and hosted on Heroku.</p>
+
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                  <li class="hidden">
+                      <a class="page-scroll" href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#about">About Me</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#projects">Projects</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#contact">Contact</a>
+                  </li>
+              </ul>
           </div>
-          <div class="card-action">
-            <a href="http://www.if60isthenew40.com">If 60 Is The New 40, Why Can't I Get a Job?</a>
+      </div>
+  </nav>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>About Me</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="project-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Projects</h1>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col s12 m6" id="sixtyCard">
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <img src="images/sixtyforty.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>A website for the book "If 60 Is The New 40, Why Can't I get a Job?". Developed with Ruby on Rails and hosted on Heroku.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://www.if60isthenew40.com">If 60 Is The New 40, Why Can't I Get a Job?</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6" id="tysonCard">
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <img src="images/tictactoe.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>A Javascript-based Tic Tac Toe game that references Mike Tyson's Punchout! for NES. Turn on your speakers for maximum nostalgia.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://yoursweater.github.io">Mike Tyson's Tic Tac Toe!</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col s12 m6" id="tysonCard">
-        <div class="card medium hoverable">
-          <div class="card-image">
-            <img src="images/tictactoe.jpg">
-            <span class="card-title"></span>
+
+      <div class="row">
+        <div class="col s12 m6" id="sullyCard">
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <img src="images/sullyheatcheck.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>Sully Heat Check interacts with the NBA API to provide you up-to-date information about a player's performance.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://sully-heat-check.herokuapp.com/">Sully Heat Check</a>
+            </div>
           </div>
-          <div class="card-content">
-            <p>A Javascript-based Tic Tac Toe game that references Mike Tyson's Punchout! for NES. Turn on your speakers for maximum nostalgia.</p>
-          </div>
-          <div class="card-action">
-            <a href="https://yoursweater.github.io">Mike Tyson's Tic Tac Toe!</a>
+        </div>
+        <div class="col s12 m6" id="seanCard">
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <img src="images/seanweather.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>Contributor to SeanWeather, an open-source website designed to provide fast (i.e., minimal load time), no-frills weather information.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://www.seanweather.com/">SeanWeather</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <div class="row">
-      <div class="col s12 m6" id="sullyCard">
-        <div class="card medium hoverable">
-          <div class="card-image">
-            <img src="images/sullyheatcheck.jpg">
-            <span class="card-title"></span>
-          </div>
-          <div class="card-content">
-            <p>Sully Heat Check interacts with the NBA API to provide you up-to-date information about a player's performance.</p>
-          </div>
-          <div class="card-action">
-            <a href="https://sully-heat-check.herokuapp.com/">Sully Heat Check</a>
+
+  <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Contact</h1>
           </div>
         </div>
-      </div>
-      <div class="col s12 m6" id="seanCard">
-        <div class="card medium hoverable">
-          <div class="card-image">
-            <img src="images/seanweather.jpg">
-            <span class="card-title"></span>
-          </div>
-          <div class="card-content">
-            <p>Contributor to SeanWeather, an open-source website designed to provide fast (i.e., minimal load time), no-frills weather information.</p>
-          </div>
-          <div class="card-action">
-            <a href="http://www.seanweather.com/">SeanWeather</a>
+
+        <div class="row" id="contactFooter">
+          <div class="col s4 offset-s4">
+            <div class="collection" id="contactInfo">
+              <a href="https://github.com/yoursweater" class="collection-item">Github: Yoursweater</a>
+              <a href="mailto:daneversen@gmail.com" class="collection-item">Email: daneversen@gmail.com</a>
+              <a href="#!" class="collection-item">Phone: 973-598-5057</a>
+            </div>
           </div>
         </div>
+
       </div>
-    </div>
-
-<div class="row">
-    <h1 class="center-align">Contact</h1>
-</div>
-
-<div class="row" id="contactFooter">
-  <div class="col s4 offset-s4">
-    <div class="collection" id="contactInfo">
-      <a href="https://github.com/yoursweater" class="collection-item">Github: Yoursweater</a>
-      <a href="mailto:daneversen@gmail.com" class="collection-item">Email: daneversen@gmail.com</a>
-      <a href="#!" class="collection-item">Phone: 973-598-5057</a>
-    </div>
-  </div>
-</div>
+  </section>
 
   <script src="js/jquery.js"></script>
   <script src="js/materialize.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
