@@ -7,11 +7,13 @@ var bodyParser = require('body-parser');
 var mustacheExpress = require('mustache-express')
 var exphbs  = require('express-handlebars');
 var pry = require('pryjs')
+var favicon = require('serve-favicon')
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use(express.static(__dirname+'/public'))
 app.use('/results', express.static('public'));
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 app.use(bodyParser.text());
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
