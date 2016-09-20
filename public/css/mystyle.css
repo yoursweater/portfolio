@@ -2,6 +2,10 @@
   margin-top: 20px;
 }
 
+#challengeCard{
+  opacity: 0;
+}
+
 #seanCard{
   opacity: 0;
 }

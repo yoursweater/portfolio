@@ -23,6 +23,9 @@
     } },
     {selector: '#seanCard', offset: 200, callback: function() {
       Materialize.fadeInImage("#seanCard");
+    } },
+    {selector: '#challengeCard', offset: 50, callback: function() {
+      Materialize.fadeInImage("#challengeCard");
     } }
   ];
   Materialize.scrollFire(options);
