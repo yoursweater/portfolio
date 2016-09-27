@@ -2,17 +2,30 @@
   background-color: #F2F2F2;
 }
 
+#contactSection{
+  background-color: #333333;
+}
+
 #projectTitle{
   margin-top: 0px;
   padding-top: 20px;
+  margin-bottom: 0px;
   background-color: #F2F2F2;
   color: #00B8D4;
   font-family: 'Raleway', sans-serif;
 }
 
 #contactTitle{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  background-color: #333333;
   color: #00B8D4;
   font-family: 'Raleway', sans-serif;
+}
+
+#contactFooter{
+  margin-bottom: 0px;
 }
 
 #contactInfo{
