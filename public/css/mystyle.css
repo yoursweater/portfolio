@@ -1,3 +1,20 @@
+#projectSection{
+  background-color: #F2F2F2;
+}
+
+#projectTitle{
+  margin-top: 0px;
+  padding-top: 20px;
+  background-color: #F2F2F2;
+  color: #00B8D4;
+  font-family: 'Raleway', sans-serif;
+}
+
+#contactTitle{
+  color: #00B8D4;
+  font-family: 'Raleway', sans-serif;
+}
+
 #contactInfo{
   margin-top: 20px;
 }
