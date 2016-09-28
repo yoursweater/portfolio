@@ -1,3 +1,13 @@
+i.medium{
+  color: #999797;
+  transition: all .2s ease-in-out;
+}
+
+i.medium:hover{
+  color: #565656;
+  transform: scale(1.3);
+}
+
 #iconSection{
   padding-top: 20px;
   padding-bottom: 20px;
