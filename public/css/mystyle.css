@@ -1,7 +1,22 @@
+#topIcons{
+  float: right;
+}
+
 #myName{
 padding-left: 40px;
 font-family: 'Baloo Bhai', cursive;
 color: #00B8D4;
+width: 60%;
+font-size: 6vw;
+}
+i.small{
+  color: #0f0f0f;
+  transition: all .2s ease-in-out;
+}
+
+i.small:hover{
+  color: #b7b2b2;
+  transform: scale(1.5);
 }
 
 #navMenu{
@@ -11,7 +26,8 @@ color: #00B8D4;
   width: 100%;
   height: 20%;
   z-index: 10;
-  background-color: rgba(51, 51, 51, .8);
+  /* background-color: rgba(51, 51, 51, .5); */
+  background: linear-gradient(to bottom, rgba(51, 51, 51, 1), rgba(51, 51, 51, .2));
 }
 
 i.medium{
