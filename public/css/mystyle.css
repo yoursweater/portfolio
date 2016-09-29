@@ -1,4 +1,9 @@
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+  .iconText {display: none;}
+  #navMenu {height:80px}
+}
+
+@media only screen and (max-device-width: 480px) {
   .iconText {display: none;}
   #navMenu {height:80px}
 }
