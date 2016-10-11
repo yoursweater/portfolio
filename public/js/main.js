@@ -3,6 +3,7 @@
 
   console.log('script loaded')
 
+
   $('.card.blue-grey.darken-1').hover(function(){
     console.log('mouse noticed')
     $(this).css("box-shadow", "5px 5px 5px 5px #ccc")
@@ -12,7 +13,7 @@
 
 
   var options = [
-    {selector: '#sixtyCard', offset: 50, callback: function() {
+    {selector: '#sixtyCard', offset: 0, callback: function() {
       Materialize.fadeInImage("#sixtyCard");
     } },
     {selector: '#tysonCard', offset: 200, callback: function() {

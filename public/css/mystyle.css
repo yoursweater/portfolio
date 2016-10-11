@@ -1,11 +1,11 @@
 @media (max-width: 480px) {
   .iconText {display: none;}
-  #navMenu {height:80px}
+  #navMenu {display:none;}
 }
 
 @media only screen and (max-device-width: 480px) {
   .iconText {display: none;}
-  #navMenu {height:80px}
+  #navMenu {display:none;}
 }
 
 #topIcons{
