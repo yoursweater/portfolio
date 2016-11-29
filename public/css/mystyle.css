@@ -14,7 +14,7 @@
 
 #myName{
 padding-left: 40px;
-font-family: 'Baloo Bhai', cursive;
+font-family: 'Lobster', cursive;
 color: #00B8D4;
 width: 60%;
 font-size: 6vw;
@@ -70,7 +70,7 @@ i.medium:hover{
   padding-bottom: 20px;
   background-color: #F2F2F2;
   color: #00B8D4;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lobster', sans-serif;
 }
 
 #contactTitle{
@@ -79,7 +79,7 @@ i.medium:hover{
   padding-top: 30px;
   background-color: #333333;
   color: #00B8D4;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lobster', sans-serif;
 }
 
 #contactFooter{
