@@ -25,7 +25,7 @@
     {selector: '#sullyCard', offset: 50, callback: function() {
       Materialize.fadeInImage("#sullyCard");
     } },
-    {selector: '#seanCard', offset: 200, callback: function() {
+    {selector: '#seanCard', offset: 50, callback: function() {
       Materialize.fadeInImage("#seanCard");
     } },
     {selector: '#challengeCard', offset: 200, callback: function() {
