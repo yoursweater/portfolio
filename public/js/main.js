@@ -3,6 +3,9 @@
 
   console.log('script loaded')
 
+$(document).ready(function(){
+  $('.slider').slider();
+});
 
   $('.card.blue-grey.darken-1').hover(function(){
     console.log('mouse noticed')
