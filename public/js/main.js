@@ -18,20 +18,20 @@
 
 
   var options = [
-    {selector: '#sketchCard', offset: 0, callback: function() {
+    {selector: '#sketchCard', offset: 200, callback: function() {
       Materialize.fadeInImage("#sketchCard");
     } },
     {selector: '#sixtyCard', offset: 200, callback: function() {
       Materialize.fadeInImage("#sixtyCard");
+    } },
+    {selector: '#monteCard', offset: 50, callback: function() {
+      Materialize.fadeInImage("#monteCard");
     } },
     {selector: '#tysonCard', offset: 50, callback: function() {
       Materialize.fadeInImage("#tysonCard");
     } },
     {selector: '#sullyCard', offset: 50, callback: function() {
       Materialize.fadeInImage("#sullyCard");
-    } },
-    {selector: '#seanCard', offset: 50, callback: function() {
-      Materialize.fadeInImage("#seanCard");
     } },
     {selector: '#challengeCard', offset: 200, callback: function() {
       Materialize.fadeInImage("#challengeCard");

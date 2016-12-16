@@ -104,6 +104,10 @@ i.medium:hover{
   opacity: 0;
 }
 
+#monteCard{
+  opacity: 0;
+}
+
 #primaryNav {
   margin-top: -10px;
 }
