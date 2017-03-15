@@ -47,6 +47,12 @@ i.medium:hover{
 
 #projectSection{
   background-color: #F2F2F2;
+    background-image:
+    linear-gradient(
+      to bottom,
+      #F2F2F2,
+      #89c3eb
+    );
 }
 
 #contactSection{
