@@ -29,12 +29,15 @@ function copy(arr){
     var rightSquare = copy(location);
     var downSquare = copy(location);
     var upSquare = copy(location);
+    var leftSquare = copy(location);
     rightSquare[0] = (rightSquare[0] + 1);
     downSquare[1] = (downSquare[1] + 1);
     upSquare[1] = (upSquare[1] - 1);
+    leftSquare[0] = (leftSquare[0] - 1);
     surroundings.right = rightSquare;
     surroundings.down = downSquare;
     surroundings.up = upSquare;
+    surroundings.left = leftSquare;
   }
 
 //Check to see if you can move
@@ -96,7 +99,7 @@ function copy(arr){
         alert('Us dwarves are natural sprinters!')
         clearInterval(interval)
       }
-    if (coastIsClearRight(surroundings)){
+    if (coastIsClearRight(surroundings) && orientation !== 'left'){
       d.orient('right');
       orientation = d.orientation;
       d.move();
@@ -123,9 +126,12 @@ function copy(arr){
     if (coastIsClearLeft(surroundings) && orientation !== 'right'){
       d.orient('left');
       orientation = d.orientation;
+      while (coastIsClearLeft(surroundings)){
       d.move();
       location[0] = (location[0] - 1)
       getSurroundings(location);
+      }
+
       return;
     };
   };

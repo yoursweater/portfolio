@@ -2,7 +2,7 @@
   <center>
     <div id="dwarfnav">
       <a href="/" style="text-decoration:none;"><h1>Dan Eversen</h1></a>
-      <!-- <p style="width: 680px;padding:0;margin:0;">There are lots of algorithms and JS libraries available for maze navigation, but I wanted to create my own. So far, Gundren the Dwarf is only capable of navigating simple mazes. But he's improving day by day.</p> -->
+      <p style="width: 680px;padding:0;margin:0;">The maze-solving dwarf</p>
     </div>
     <div id="container"></div>
   </center>
@@ -13,13 +13,13 @@
     g.attachTo('#container');
     window.d = new Traveler(0, 0, window.g);
 
-    var coords = []
+    var coords = [[3,3,"color grey"], [4,3,"color grey"]]
 
     function add(x, y) {
       coords.push([x, y, 'color grey']);
     }
 
-    for (var y = 1; y < 20; y++) {
+    for (var y = 7; y < 20; y++) {
       for (var x = 0; x < 4; x++) {
         add(x, y);
       }
