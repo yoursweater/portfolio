@@ -10,7 +10,7 @@ function dwarfRunner(){
     down: [0,1],
     up: [0,-1]
   };
-  var endpoint = [19,14];
+  var endpoint = [18,14];
   var breadcrumbs = [];
 
 
@@ -76,13 +76,16 @@ function copy(arr){
 
 //Move, then update location and update surroundings
   function moveDwarf(){
+    if (location[0] === endpoint[0] && location[1] === endpoint[1]){
+        alert('Us dwarves are natural sprinters!')
+        clearInterval(interval)
+      }
     if (coastIsClearRight(surroundings)){
       d.orient('right');
       orientation = d.orientation;
       d.move();
       location[0] = (location[0] + 1)
       getSurroundings(location);
-      console.log(location)
       return;
     };
     if (coastIsClearDown(surroundings) && orientation !== 'up'){
@@ -103,12 +106,12 @@ function copy(arr){
       // console.log(location)
       return;
     };
-
-    alert('Us dwarves are natural sprinters!!!')
-    clearInterval(interval)
-
   };
 
+
+  // for(i = 0; i <15; i++){
+  //   moveDwarf()
+  // }
 var interval
 interval = window.setInterval(moveDwarf, 250)
 
