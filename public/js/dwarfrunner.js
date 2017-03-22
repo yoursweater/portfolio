@@ -8,7 +8,8 @@ function dwarfRunner(){
   var surroundings = {
     right:[1,0],
     down: [0,1],
-    up: [0,-1]
+    up: [0,-1],
+    left:[-1,0]
   };
   var endpoint = [18,14];
   var breadcrumbs = [];
@@ -74,6 +75,21 @@ function copy(arr){
     }
   };
 
+  function coastIsClearLeft(surroundings){
+    var leftX = surroundings.left[0];
+    var leftY = surroundings.left[1];
+    if (leftX == -1){
+      return false;
+    } else {
+      var squarecheckLeft = g.at(leftX,leftY);
+        if (squarecheckLeft == 0){
+          return true;
+        } else {
+          return false;
+        };
+    }
+  };
+
 //Move, then update location and update surroundings
   function moveDwarf(){
     if (location[0] === endpoint[0] && location[1] === endpoint[1]){
@@ -94,7 +110,6 @@ function copy(arr){
       d.move();
       location[1] = (location[1] + 1)
       getSurroundings(location);
-      // console.log(location)
       return;
     };
     if (coastIsClearUp(surroundings) && orientation !== 'down'){
@@ -103,7 +118,14 @@ function copy(arr){
       orientation = d.orientation;
       location[1] = (location[1] - 1)
       getSurroundings(location);
-      // console.log(location)
+      return;
+    };
+    if (coastIsClearLeft(surroundings) && orientation !== 'right'){
+      d.orient('left');
+      orientation = d.orientation;
+      d.move();
+      location[0] = (location[0] - 1)
+      getSurroundings(location);
       return;
     };
   };
