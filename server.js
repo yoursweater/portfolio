@@ -31,3 +31,7 @@ console.log('Listening on port ' + port);
 app.get('/', function(req,res){
   res.render('index')
 })
+
+app.get('/traveling-dwarf', function(req,res){
+  res.render('dwarf', { title: 'Traveling Dwarf', layout: 'emptydwarf'})
+})
