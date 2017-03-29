@@ -98,6 +98,10 @@ i.medium:hover{
   opacity: 0;
 }
 
+#dwarfCard{
+  opacity: 0;
+}
+
 #sullyCard{
   opacity: 0;
 }

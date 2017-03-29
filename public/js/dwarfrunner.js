@@ -1,5 +1,12 @@
 console.log('Dwarf loaded.')
 
+// $('.piece').on('click', function(){
+//   console.log($(this));
+//   $(this).addClass('piece block')
+//   $(this).css('background-color', 'grey')
+
+// })
+
 function dwarfRunner(){
 
 //Whereabouts

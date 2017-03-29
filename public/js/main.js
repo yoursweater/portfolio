@@ -35,6 +35,9 @@
     } },
     {selector: '#challengeCard', offset: 200, callback: function() {
       Materialize.fadeInImage("#challengeCard");
+    } },
+    {selector: '#dwarfCard', offset: 50, callback: function() {
+      Materialize.fadeInImage("#dwarfCard");
     } }
   ];
   Materialize.scrollFire(options);
