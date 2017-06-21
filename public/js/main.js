@@ -38,6 +38,9 @@
     } },
     {selector: '#dwarfCard', offset: 50, callback: function() {
       Materialize.fadeInImage("#dwarfCard");
+    } },
+    {selector: '#tightcard', offset: 200, callback: function() {
+      Materialize.fadeInImage("#tightcard");
     } }
   ];
   Materialize.scrollFire(options);
