@@ -36,10 +36,10 @@
     {selector: '#challengeCard', offset: 20, callback: function() {
       Materialize.fadeInImage("#challengeCard");
     } },
-    {selector: '#dwarfCard', offset: 20, callback: function() {
+    {selector: '#dwarfCard', offset: 5, callback: function() {
       Materialize.fadeInImage("#dwarfCard");
     } },
-    {selector: '#tightcard', offset: 20, callback: function() {
+    {selector: '#tightcard', offset: 5, callback: function() {
       Materialize.fadeInImage("#tightcard");
     } }
   ];
