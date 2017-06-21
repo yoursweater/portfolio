@@ -84,11 +84,23 @@ function hasScrolled() {
 
 //Contact Icons
 
-// $('#iconSection').hover(function(){
-//         $('.iconText').animate({left: '0'}, 500)
-//     }, function(){
-//         $('.iconText').animate({left: '100%'}, 500)
-//     });
+$('#envIcon').hover(function(){
+        $('.slideTextE p').animate({margin: '2vh 0 0 0'}, 500)
+    }, function(){
+        $('.slideTextE p').animate({margin: '-12vh 0 0 0'}, 500)
+    });
+
+$('#gitIcon').hover(function(){
+        $('.slideTextG p').animate({margin: '2vh 0 0 0'}, 500)
+    }, function(){
+        $('.slideTextG p').animate({margin: '-12vh 0 0 0'}, 500)
+    });
+
+$('#linkIcon').hover(function(){
+        $('.slideTextL p').animate({margin: '2vh 0 0 0'}, 500)
+    }, function(){
+        $('.slideTextL p').animate({margin: '-12vh 0 0 0'}, 500)
+    });
 
 
 })();
