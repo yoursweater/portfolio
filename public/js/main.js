@@ -82,4 +82,13 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
+//Contact Icons
+
+// $('#iconSection').hover(function(){
+//         $('.iconText').animate({left: '0'}, 500)
+//     }, function(){
+//         $('.iconText').animate({left: '100%'}, 500)
+//     });
+
+
 })();
