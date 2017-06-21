@@ -18,28 +18,28 @@
 
 
   var options = [
-    {selector: '#sketchCard', offset: 200, callback: function() {
+    {selector: '#sketchCard', offset: 20, callback: function() {
       Materialize.fadeInImage("#sketchCard");
     } },
-    {selector: '#sixtyCard', offset: 200, callback: function() {
+    {selector: '#sixtyCard', offset: 20, callback: function() {
       Materialize.fadeInImage("#sixtyCard");
     } },
-    {selector: '#monteCard', offset: 50, callback: function() {
+    {selector: '#monteCard', offset: 20, callback: function() {
       Materialize.fadeInImage("#monteCard");
     } },
-    {selector: '#tysonCard', offset: 50, callback: function() {
+    {selector: '#tysonCard', offset: 20, callback: function() {
       Materialize.fadeInImage("#tysonCard");
     } },
-    {selector: '#sullyCard', offset: 50, callback: function() {
+    {selector: '#sullyCard', offset: 20, callback: function() {
       Materialize.fadeInImage("#sullyCard");
     } },
-    {selector: '#challengeCard', offset: 200, callback: function() {
+    {selector: '#challengeCard', offset: 20, callback: function() {
       Materialize.fadeInImage("#challengeCard");
     } },
-    {selector: '#dwarfCard', offset: 50, callback: function() {
+    {selector: '#dwarfCard', offset: 20, callback: function() {
       Materialize.fadeInImage("#dwarfCard");
     } },
-    {selector: '#tightcard', offset: 200, callback: function() {
+    {selector: '#tightcard', offset: 20, callback: function() {
       Materialize.fadeInImage("#tightcard");
     } }
   ];
@@ -81,7 +81,5 @@ function hasScrolled() {
 
     lastScrollTop = st;
 }
-
-
 
 })();
