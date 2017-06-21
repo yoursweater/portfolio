@@ -19,6 +19,34 @@ color: #00B8D4;
 width: 60%;
 font-size: 6vw;
 }
+
+#gitIcon{
+  font-size: 10vmin;
+  transition: all 0.2s ease-in-out;
+}
+
+#gitIcon:hover{
+  transform: scale(1.5);
+}
+
+#envIcon{
+  font-size: 10vmin;
+  transition: all 0.2s ease-in-out;
+}
+
+#envIcon:hover{
+  transform: scale(1.5);
+}
+
+#linkIcon{
+  font-size: 10vmin;
+  transition: all 0.2s ease-in-out;
+}
+
+#linkIcon:hover{
+  transform: scale(1.5);
+}
+
 i.small{
   color: #0f0f0f;
   transition: all .2s ease-in-out;
