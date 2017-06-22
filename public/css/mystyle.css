@@ -259,3 +259,47 @@ h6 {
 .slideTextL p {
   margin-top: -12vh;
 }
+
+/* INTRO */
+
+.introContainer {
+  font-family: Source Sans Pro;
+  height: 100vh;
+  width: 100vw;
+}
+
+.middle {
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    overflow: hidden;
+}
+.text {
+    font-weight: 300;
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    opacity: 0;
+    top: 50px;
+    position: relative;
+}
+.hr {
+    margin-top: 12px;
+    height: 1px;
+    width: 350px;
+    margin-left: -350px;
+    background-color: #bbb;
+}
+.desc {
+    font-weight: 301;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+}
+.desc span {
+    margin-top: -70px;
+    display: block;
+}
