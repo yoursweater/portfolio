@@ -74,37 +74,46 @@ i.medium:hover{
 }
 
 #projectSection{
-  background-color: #F2F2F2;
-    background-image:
-    linear-gradient(
-      to bottom,
-      #F2F2F2,
-      #89c3eb
-    );
+  background-color: #ffff66;
 }
 
 #contactSection{
-  background-color: #333333;
-  height: 300px;
+  background-color: #5e88b2;
+  height: 400px;
 }
 
 #projectTitle{
-  margin-top: 0px;
-  padding-top: 20px;
-  margin-bottom: 0px;
-  padding-bottom: 20px;
-  background-color: #F2F2F2;
-  color: #00B8D4;
+  font-weight:bold;
   font-family: 'Lobster', sans-serif;
+  letter-spacing: .35em;
+  padding:40px 0 80px;
+  color: #00B8D4;
+  letter-spacing: .05em;
+  text-shadow: 2px 2px 0px #89c3eb, 7px 7px 0px rgba(102, 102, 153, 0.4);
+}
+
+.contactIcon *{
+  color: #0040ff;
 }
 
 #contactTitle{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 30px;
-  background-color: #333333;
-  color: #00B8D4;
-  font-family: 'Lobster', sans-serif;
+   font-family: 'Baloo', cursive;
+  font-size: 1.8rem;
+  color: #fff;
+  margin: 0;
+}
+
+.text-stroke-box{
+  font-size: 6rem;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-stroke-color: #fff;
+    -webkit-text-stroke-color: #fff;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
 }
 
 #contactFooter{
@@ -307,4 +316,5 @@ h6 {
 .descDetails {
     margin-top: 70px;
     display: block;
+    cursor: pointer;
 }
