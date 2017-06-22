@@ -105,14 +105,29 @@ $('#linkIcon').hover(function(){
 
 //INTRO
 
- var a = $(".text");
+    var a = $(".text");
     var b = $(".hr");
     var c = $(".descText");
+    var d = $(".descDetails");
 
     a.delay(1000).animate({top: "0", opacity: "1"}, 1000, function() {
         b.delay(500).animate({marginLeft: "0"}, 800, function() {
-            c.animate({marginTop: "10"}, 800)
+            c.animate({marginTop: "10"}, 800, function() {
+              c.delay(2250).animate({marginTop:"-70"}, 600, function(){
+                d.animate({marginTop:"-4"}, 800)
+              });
+            });
         });
     });
+
+//SCROLL
+
+$(".descDetails").on("click", function( e ) {
+    e.preventDefault();
+    $("body, html").animate({
+      scrollTop: $( $(this).attr('href') ).offset().top
+    }, 600);
+
+  });
 
 })();

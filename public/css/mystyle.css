@@ -299,7 +299,12 @@ h6 {
     text-align: center;
     overflow: hidden;
 }
-.desc span {
+.descText {
     margin-top: -70px;
+    display: block;
+}
+
+.descDetails {
+    margin-top: 70px;
     display: block;
 }
