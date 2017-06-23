@@ -339,8 +339,39 @@ h6 {
     cursor: pointer;
 }
 
+#bioSubtitle {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Baloo;
+  font-size: 2em;
+}
+
+#bioDescription {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#rightBio {
+  overflow: scroll;
+}
+
+#techTitle {
+  text-align: center;
+  font-family: baloo;
+  color: white;
+  text-shadow: 3px 1px 1px black;
+  padding-top: 5%;
+}
+
 
 /* HEXAGON */
+
+#techBox {
+  min-width: 600px;
+  padding-left: 10%;
+  justify-content: center;
+  margin: 0px 0px 20px 0px;
+}
 
 .hexagon {
   position: relative;
@@ -353,6 +384,9 @@ h6 {
   background-position: center;
   box-shadow: 0 0 20px rgba(0,0,0,0.55);
   background-color: white;
+  display: inline-block;
+  margin-top: 9%;
+  margin-left: 9%;
 }
 
 .hexagon.react {
