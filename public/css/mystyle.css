@@ -78,11 +78,30 @@ i.medium:hover{
 }
 
 #contactSection{
-  background-color: #5e88b2;
+  background-color: #3a6796;
   height: 400px;
 }
 
+#bioSection {
+  background-color: #3a6796;
+  margin-bottom: 0;
+}
+#bioTitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  font-family: 'Baloo', cursive;
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0;
+}
+
+#bioRow {
+  margin: 0;
+}
+
 #projectTitle{
+  margin-top: 0;
   font-weight:bold;
   font-family: 'Lobster', sans-serif;
   letter-spacing: .35em;
@@ -93,7 +112,8 @@ i.medium:hover{
 }
 
 .contactIcon *{
-  color: #0040ff;
+  color: #00B8D4;
+  margin: 0;
 }
 
 #contactTitle{
