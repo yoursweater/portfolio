@@ -344,11 +344,13 @@ h6 {
   padding-right: 10%;
   font-family: Baloo;
   font-size: 2em;
+  color: white;
 }
 
 #bioDescription {
   padding-left: 10%;
   padding-right: 10%;
+  color: white;
 }
 
 #rightBio {
