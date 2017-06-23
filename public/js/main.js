@@ -85,21 +85,21 @@ function hasScrolled() {
 //Contact Icons
 
 $('#envIcon').hover(function(){
-        $('.slideTextE p').animate({margin: '2vh 0 0 0'}, 500)
+        $('.slideTextE p').stop(true,false).animate({margin: '2vh 0 0 0'}, 350)
     }, function(){
-        $('.slideTextE p').animate({margin: '-12vh 0 0 0'}, 500)
+        $('.slideTextE p').animate({margin: '-12vh 0 0 0'}, 200)
     });
 
 $('#gitIcon').hover(function(){
-        $('.slideTextG p').animate({margin: '2vh 0 0 0'}, 500)
+        $('.slideTextG p').stop(true,false).animate({margin: '2vh 0 0 0'}, 350)
     }, function(){
-        $('.slideTextG p').animate({margin: '-12vh 0 0 0'}, 500)
+        $('.slideTextG p').animate({margin: '-12vh 0 0 0'}, 200)
     });
 
 $('#linkIcon').hover(function(){
-        $('.slideTextL p').animate({margin: '2vh 0 0 0'}, 500)
+        $('.slideTextL p').stop(true,false).animate({margin: '2vh 0 0 0'}, 350)
     }, function(){
-        $('.slideTextL p').animate({margin: '-12vh 0 0 0'}, 500)
+        $('.slideTextL p').animate({margin: '-12vh 0 0 0'}, 200)
     });
 
 
