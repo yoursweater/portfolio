@@ -144,38 +144,7 @@ i.medium:hover{
   margin-top: 20px;
 }
 
-#tightcard {
-  opacity: 0;
-}
-#challengeCard{
-  opacity: 0;
-}
-
-#sketchCard{
-  opacity: 0;
-}
-
-#seanCard{
-  opacity: 0;
-}
-
-#dwarfCard{
-  opacity: 0;
-}
-
-#sullyCard{
-  opacity: 0;
-}
-
-#tysonCard{
-  opacity: 0;
-}
-
-#sixtyCard{
-  opacity: 0;
-}
-
-#monteCard{
+.card-fader {
   opacity: 0;
 }
 
