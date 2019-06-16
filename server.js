@@ -4,9 +4,7 @@ var express = require('express');
 var app = express();
 var request = require('request');
 var bodyParser = require('body-parser');
-var mustacheExpress = require('mustache-express')
 var exphbs  = require('express-handlebars');
-var pry = require('pryjs')
 var favicon = require('serve-favicon')
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
@@ -22,7 +20,7 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 }));
 
 var port = process.env.PORT || 8000
-var server = app.listen(port);
+app.listen(port);
 console.log('Listening on port ' + port);
 
 
