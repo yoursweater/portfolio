@@ -83,6 +83,14 @@ background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936f
 
 }
 
+#montecard {
+  height: auto !important;
+}
+
+#confidential {
+  height: auto !important;
+}
+
 @-webkit-keyframes animate {
   from {background-position:0 0;}
   to {background-position: 500px 0;}
@@ -323,6 +331,12 @@ h6 {
   font-family: Baloo;
   font-size: 2em;
   color: white;
+  text-align: center;
+}
+
+#bio-list {
+  padding-left: 10%;
+  color: white;
 }
 
 #bioDescription {
@@ -380,7 +394,7 @@ h6 {
 }
 
 .hexagon.hfive {
-  background-image: url(../images/html5.png);
+  background-image: url(../images/angular.svg);
 }
 
 .hexagon.node {
@@ -388,11 +402,11 @@ h6 {
 }
 
 .hexagon.jquery {
-  background-image: url(../images/jquery.png);
+  background-image: url(../images/aws.png);
 }
 
 .hexagon.cthree {
-  background-image: url(../images/css3.png);
+  background-image: url(../images/python.png);
 }
 
 .hexagon.firebase {
